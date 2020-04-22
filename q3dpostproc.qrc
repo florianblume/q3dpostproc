@@ -15,5 +15,6 @@
         <file>scene_t.frag</file>
         <file>depth.vert</file>
         <file>depth.frag</file>
+        <file>container.jpg</file>
     </qresource>
 </RCC>

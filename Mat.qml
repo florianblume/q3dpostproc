@@ -2,6 +2,17 @@ import Qt3D.Core 2.0
 import Qt3D.Render 2.0
 
 Material {
+    parameters: [
+        Parameter {
+            name: "tex"
+            value: Texture2D {
+                textureImages: [TextureImage {
+                        source: "qrc:/container.jpg"
+                    }
+                ]
+            }
+        }
+    ]
     effect: Effect {
         techniques: [
             Technique {
